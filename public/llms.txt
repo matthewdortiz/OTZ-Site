@@ -1,0 +1,40 @@
+# OTZ Group
+
+> AI transformation for small and medium businesses in South Florida
+
+## About
+
+OTZ Group is an AI consulting firm based in Miami, Florida, specializing in practical AI implementation for SMBs across healthcare, retail, and logistics. We make enterprise-grade AI accessible to growing businesses through rapid deployment and measurable ROI.
+
+## Services
+
+- AI Strategy Consulting: Assessment, roadmap development, and implementation planning
+- AI Implementation: Custom AI solutions deployed in 21-day sprints
+- Voice Agents: Intelligent phone systems for appointment booking, customer service, and lead qualification
+- Nucleus Platform: Proprietary unified business data infrastructure for AI-ready operations
+- Process Automation: Workflow optimization using multi-agent systems
+- CRM Integration: AI-enhanced customer relationship management
+
+## Industries Served
+
+- Healthcare (dental practices, clinics, medical offices)
+- Retail and E-commerce
+- Logistics and Operations
+- Hospitality
+
+## Location
+
+Miami, Florida, USA
+Serving South Florida SMBs
+
+## Contact
+
+Website: https://otz.group
+
+## Differentiators
+
+- 21-day implementation sprints
+- Performance-based pricing models
+- Deployed teams approach for ongoing support
+- Proprietary Nucleus data infrastructure platform
+- Focus on measurable ROI and revenue impact
