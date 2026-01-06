@@ -1,5 +1,7 @@
+'use client';
+
 import { Button } from '../../ui/button';
-import { navigateTo } from '../../Router';
+import { navigateTo } from '@/lib/navigation';
 
 export function CTAFooter() {
   const handleContactClick = () => {

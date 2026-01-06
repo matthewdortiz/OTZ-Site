@@ -1,3 +1,5 @@
+'use client';
+
 import { Header } from '../Header';
 import { Footer } from '../Footer';
 import { Button } from '../ui/button';
@@ -7,7 +9,7 @@ import { BackendArchitectureBlock } from './BackendArchitectureBlock';
 import { OutcomeCard } from './OutcomeCard';
 import { QuoteBlock } from './QuoteBlock';
 import { SpecRow } from './SpecRow';
-import { navigateTo } from '../Router';
+import { navigateTo } from '@/lib/navigation';
 
 interface CaseStudyData {
   industry: string;
@@ -21,21 +23,24 @@ interface CaseStudyData {
     duration: string;
     description: string;
   }>;
-  arch_input: string;
-  arch_processing: string;
-  arch_output: string;
+  arch_input: string | string[];
+  arch_processing: string | { title: string; lines: string[] };
+  arch_output: string | string[];
   arch_caption?: string;
   showBackendArchitecture?: boolean;
   outcomes: Array<{
-    value: string;
-    title: string;
-    caption: string;
+    value?: string;
+    title?: string;
+    caption?: string;
+    headline?: string;
+    subtext?: string[];
   }>;
   quote_text: string;
   quote_name: string;
   quote_org: string;
   spec_duration: string;
   spec_stack: string;
+  spec_team?: string;
   spec_industry: string;
 }
 

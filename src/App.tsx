@@ -1,6 +1,9 @@
+'use client';
+
 import { Router } from './components/Router';
 import { useEffect } from 'react';
-import faviconImg from 'figma:asset/175ef9c37b5530325437f7966a6f530739cadb92.png';
+
+const faviconImg = '/assets/175ef9c37b5530325437f7966a6f530739cadb92.png';
 
 export default function App() {
   useEffect(() => {

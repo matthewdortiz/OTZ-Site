@@ -1,7 +1,10 @@
+'use client';
+
 import { Button } from '../ui/button';
 import { ArrowRight } from 'lucide-react';
-import { navigateTo } from '../Router';
-import aeoSolutionsBg from 'figma:asset/a902e3f0e8a16e199e12b5bf0b790194e662556a.png';
+import { navigateTo } from '@/lib/navigation';
+
+const aeoSolutionsBg = '/assets/a902e3f0e8a16e199e12b5bf0b790194e662556a.png';
 
 export function AEOSection() {
   const handleLearnMore = () => {

@@ -1,7 +1,10 @@
+'use client';
+
 import { Button } from '../ui/button';
 import { ArrowRight } from 'lucide-react';
-import { navigateTo } from '../Router';
-import voiceAgentsBg from 'figma:asset/fe986447eedb9a09ab881671e743f5e3ae1b4b8f.png';
+import { navigateTo } from '@/lib/navigation';
+
+const voiceAgentsBg = '/assets/fe986447eedb9a09ab881671e743f5e3ae1b4b8f.png';
 
 export function AIVoiceAgentsSection() {
   const handleLearnMore = () => {

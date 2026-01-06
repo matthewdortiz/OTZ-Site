@@ -1,7 +1,10 @@
+'use client';
+
 import { Button } from '../ui/button';
 import { ArrowRight } from 'lucide-react';
-import { navigateTo } from '../Router';
-import teachingsBg from 'figma:asset/def4bbfb80bca8539192afdf547ead8d51b5bba1.png';
+import { navigateTo } from '@/lib/navigation';
+
+const teachingsBg = '/assets/def4bbfb80bca8539192afdf547ead8d51b5bba1.png';
 
 export function TeachingsSection() {
   const handleLearnMore = () => {
