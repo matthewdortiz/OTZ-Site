@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir \"C:\\\\Users\\\\mycha\\\\Downloads\")",
+      "Bash(findstr:*)",
+      "Bash(dir \"C:\\\\Users\\\\mycha\\\\Downloads\\\\OTZ Group\")",
+      "Bash(dir /s /b \"C:\\\\Users\\\\mycha\\\\Downloads\\\\OTZ Group\")",
+      "Bash(xcopy:*)",
+      "Bash(powershell:*)",
+      "Bash(dir \"C:\\\\Users\\\\mycha\\\\OTZ-Site\")",
+      "Bash(git add:*)",
+      "Bash(git commit:*)"
+    ]
+  }
+}
