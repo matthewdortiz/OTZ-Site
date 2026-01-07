@@ -1,11 +1,11 @@
 import { ImageWithFallback } from '../../figma/ImageWithFallback';
 
-const twilioLogo = '/assets/ea9866c85a7705215272294de8f712103cdcb9aa.png';
-const slackLogo = '/assets/b86ffa2b5af09e9147d66baa0c87a7a09b300c15.png';
-const salesforceLogo = '/assets/cb7b816fae03a389d4279c5b785817fc48076788.png';
-const openaiLogo = '/assets/09c6c860ada4518b871edf760c1524b061c59503.png';
-const googleWorkspaceLogo = '/assets/cc002106dcbee5fbba49ab6ce66c80de2f5c932d.png';
-const hubspotLogo = '/assets/13a7092c9bee9564fbfb74056c720c9c06c4895b.png';
+const twilioLogo = '/assets/ea9866c85a7705215272294de8f712103cdcb9aa.webp';
+const slackLogo = '/assets/b86ffa2b5af09e9147d66baa0c87a7a09b300c15.webp';
+const salesforceLogo = '/assets/cb7b816fae03a389d4279c5b785817fc48076788.webp';
+const openaiLogo = '/assets/09c6c860ada4518b871edf760c1524b061c59503.webp';
+const googleWorkspaceLogo = '/assets/cc002106dcbee5fbba49ab6ce66c80de2f5c932d.webp';
+const hubspotLogo = '/assets/13a7092c9bee9564fbfb74056c720c9c06c4895b.webp';
 
 const integrations = [
   { 

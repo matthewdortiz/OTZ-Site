@@ -4,7 +4,7 @@ import { Button } from '../ui/button';
 import { ArrowRight } from 'lucide-react';
 import { navigateTo } from '@/lib/navigation';
 
-const teachingsBg = '/assets/def4bbfb80bca8539192afdf547ead8d51b5bba1.png';
+const teachingsBg = '/assets/def4bbfb80bca8539192afdf547ead8d51b5bba1.webp';
 
 export function TeachingsSection() {
   const handleLearnMore = () => {

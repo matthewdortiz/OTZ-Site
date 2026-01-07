@@ -4,7 +4,7 @@ import { Button } from '../ui/button';
 import { ArrowRight } from 'lucide-react';
 import { navigateTo } from '@/lib/navigation';
 
-const consultingBg = '/assets/ac9e7f83ff72108ba815038c582eb800bc6ea521.png';
+const consultingBg = '/assets/ac9e7f83ff72108ba815038c582eb800bc6ea521.webp';
 
 export function AIStrategicGuidanceSection() {
   const handleLearnMore = () => {
