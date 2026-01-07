@@ -1,0 +1,21 @@
+{
+  "name": "OTZ Group - AI Consulting",
+  "short_name": "OTZ Group",
+  "description": "Miami-based AI consulting firm specializing in practical AI implementation for healthcare, retail, and logistics SMBs.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "en-US",
+  "categories": ["business", "productivity"],
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
