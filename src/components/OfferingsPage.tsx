@@ -4,10 +4,10 @@ import { Header } from './Header';
 import { Footer } from './Footer';
 import { navigateTo } from '@/lib/navigation';
 
-const consultingBg = '/assets/ac9e7f83ff72108ba815038c582eb800bc6ea521.png';
-const voiceAgentsBg = '/assets/fe986447eedb9a09ab881671e743f5e3ae1b4b8f.png';
-const aeoSolutionsBg = '/assets/a902e3f0e8a16e199e12b5bf0b790194e662556a.png';
-const teachingsBg = '/assets/def4bbfb80bca8539192afdf547ead8d51b5bba1.png';
+const consultingBg = '/assets/ac9e7f83ff72108ba815038c582eb800bc6ea521.webp';
+const voiceAgentsBg = '/assets/fe986447eedb9a09ab881671e743f5e3ae1b4b8f.webp';
+const aeoSolutionsBg = '/assets/a902e3f0e8a16e199e12b5bf0b790194e662556a.webp';
+const teachingsBg = '/assets/def4bbfb80bca8539192afdf547ead8d51b5bba1.webp';
 
 const offerings = [
   {

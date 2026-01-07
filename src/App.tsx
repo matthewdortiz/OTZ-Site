@@ -3,7 +3,7 @@
 import { Router } from './components/Router';
 import { useEffect } from 'react';
 
-const faviconImg = '/assets/175ef9c37b5530325437f7966a6f530739cadb92.png';
+const faviconImg = '/assets/175ef9c37b5530325437f7966a6f530739cadb92.webp';
 
 export default function App() {
   useEffect(() => {

@@ -12,8 +12,8 @@ import {
 import { Header } from '../Header';
 import { Footer } from '../Footer';
 
-const coverImage = '/assets/809e7f5fb5a14a2a1fbc12c9308d59083d415d1b.png';
-const backgroundImage = '/assets/a902e3f0e8a16e199e12b5bf0b790194e662556a.png';
+const coverImage = '/assets/809e7f5fb5a14a2a1fbc12c9308d59083d415d1b.webp';
+const backgroundImage = '/assets/a902e3f0e8a16e199e12b5bf0b790194e662556a.webp';
 
 export function AEOSolutions() {
   const handleContactClick = () => {

@@ -5,7 +5,7 @@ import { Footer } from '../Footer';
 import { CheckCircle2, Lightbulb, PenTool, Users, Rocket } from 'lucide-react';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '../ui/accordion';
 
-const coverImage = '/assets/def4bbfb80bca8539192afdf547ead8d51b5bba1.png';
+const coverImage = '/assets/def4bbfb80bca8539192afdf547ead8d51b5bba1.webp';
 
 export function TeachingsPage() {
   return (

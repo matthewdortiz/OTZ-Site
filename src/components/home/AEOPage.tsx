@@ -12,7 +12,7 @@ import {
 import { Header } from '../Header';
 import { Footer } from '../Footer';
 
-const backgroundImage = '/assets/a902e3f0e8a16e199e12b5bf0b790194e662556a.png';
+const backgroundImage = '/assets/a902e3f0e8a16e199e12b5bf0b790194e662556a.webp';
 
 export function AEOPage() {
   const handleContactClick = () => {

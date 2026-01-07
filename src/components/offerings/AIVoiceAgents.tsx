@@ -9,7 +9,7 @@ import { LiveDemoSection } from './voice-agent/LiveDemoSection';
 import { IntegrationsSection } from './voice-agent/IntegrationsSection';
 import { CTAFooter } from './voice-agent/CTAFooter';
 
-const backgroundImage = '/assets/95c4037445dcaa360a4f346fa42047eb05b64685.png';
+const backgroundImage = '/assets/95c4037445dcaa360a4f346fa42047eb05b64685.webp';
 
 export function AIVoiceAgents() {
   return (

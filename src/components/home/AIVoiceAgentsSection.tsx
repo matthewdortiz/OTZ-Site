@@ -4,7 +4,7 @@ import { Button } from '../ui/button';
 import { ArrowRight } from 'lucide-react';
 import { navigateTo } from '@/lib/navigation';
 
-const voiceAgentsBg = '/assets/fe986447eedb9a09ab881671e743f5e3ae1b4b8f.png';
+const voiceAgentsBg = '/assets/fe986447eedb9a09ab881671e743f5e3ae1b4b8f.webp';
 
 export function AIVoiceAgentsSection() {
   const handleLearnMore = () => {

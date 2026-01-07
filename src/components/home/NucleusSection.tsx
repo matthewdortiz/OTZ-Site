@@ -2,8 +2,8 @@
 
 import { ArrowRight } from 'lucide-react';
 
-const nucleusLogo = '/assets/4b687204aaec3298af0000550b663db441082924.png';
-const nucleusImage = '/assets/db9edf86cd0a365118b0849fed74a23bf31b3a45.png';
+const nucleusLogo = '/assets/4b687204aaec3298af0000550b663db441082924.webp';
+const nucleusImage = '/assets/db9edf86cd0a365118b0849fed74a23bf31b3a45.webp';
 
 export function NucleusSection() {
   const handleLearnMore = () => {

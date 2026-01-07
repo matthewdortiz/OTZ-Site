@@ -4,8 +4,8 @@ import { Menu } from 'lucide-react';
 import { Button } from './ui/button';
 import { navigateTo } from '@/lib/navigation';
 
-const nucleusLogo = '/assets/4b687204aaec3298af0000550b663db441082924.png';
-const otzLogo = '/assets/a0a5640ba53bc00982c4d72a3acb171ad7d022d4.png';
+const nucleusLogo = '/assets/4b687204aaec3298af0000550b663db441082924.webp';
+const otzLogo = '/assets/a0a5640ba53bc00982c4d72a3acb171ad7d022d4.webp';
 
 export function Header() {
   const scrollToTop = () => {
