@@ -1,6 +1,8 @@
+'use client';
+
 import { ChevronRight, Database, Network, Brain, Cog, TrendingUp, RefreshCw, BarChart, MessageSquare, Users, Activity, Target, Layers, FileText, Settings } from 'lucide-react';
 import { Button } from '../ui/button';
-import { navigateTo } from '../Router';
+import { navigateTo } from '@/lib/navigation';
 import {
   Accordion,
   AccordionContent,
@@ -10,13 +12,14 @@ import {
 import { Header } from '../Header';
 import { Footer } from '../Footer';
 import { ImageWithFallback } from '../figma/ImageWithFallback';
-import supabaseLogo from 'figma:asset/b0f0f0c27a929959492e0c2f833b8195ffd4e71a.png';
-import slackLogo from 'figma:asset/63504b50e1634a84e01bf9147536ff5e219fdb8d.png';
-import salesforceLogo from 'figma:asset/cb7b816fae03a389d4279c5b785817fc48076788.png';
-import openaiLogo from 'figma:asset/09c6c860ada4518b871edf760c1524b061c59503.png';
-import googleWorkspaceLogo from 'figma:asset/cc002106dcbee5fbba49ab6ce66c80de2f5c932d.png';
-import hubspotLogo from 'figma:asset/13a7092c9bee9564fbfb74056c720c9c06c4895b.png';
-import strategyBackground from 'figma:asset/ac9e7f83ff72108ba815038c582eb800bc6ea521.png';
+
+const supabaseLogo = '/assets/b0f0f0c27a929959492e0c2f833b8195ffd4e71a.png';
+const slackLogo = '/assets/63504b50e1634a84e01bf9147536ff5e219fdb8d.png';
+const salesforceLogo = '/assets/cb7b816fae03a389d4279c5b785817fc48076788.png';
+const openaiLogo = '/assets/09c6c860ada4518b871edf760c1524b061c59503.png';
+const googleWorkspaceLogo = '/assets/cc002106dcbee5fbba49ab6ce66c80de2f5c932d.png';
+const hubspotLogo = '/assets/13a7092c9bee9564fbfb74056c720c9c06c4895b.png';
+const strategyBackground = '/assets/ac9e7f83ff72108ba815038c582eb800bc6ea521.png';
 
 const integrations = [
   { 

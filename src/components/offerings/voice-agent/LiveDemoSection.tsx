@@ -1,3 +1,5 @@
+'use client';
+
 import { Phone, PhoneCall } from 'lucide-react';
 import { Button } from '../../ui/button';
 

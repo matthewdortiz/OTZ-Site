@@ -1,3 +1,5 @@
+'use client';
+
 import { useState, useEffect } from 'react';
 import { Header } from './Header';
 import { Hero } from './Hero';
@@ -26,7 +28,8 @@ import { AEOSection } from './home/AEOSection';
 import { TeachingsSection } from './home/TeachingsSection';
 import { NucleusSection } from './home/NucleusSection';
 import { CalendlySection } from './CalendlySection';
-import heroBackground from 'figma:asset/7b4c28ac23a4d16adf49ce5d461f26c788329d3c.png';
+
+const heroBackground = '/assets/7b4c28ac23a4d16adf49ce5d461f26c788329d3c.png';
 
 // Custom navigation event for SPA routing
 export const navigateTo = (path: string) => {

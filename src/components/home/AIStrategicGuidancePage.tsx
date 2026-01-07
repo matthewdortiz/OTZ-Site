@@ -1,6 +1,8 @@
+'use client';
+
 import { ChevronRight, CheckCircle2, Target, TrendingUp, Shield } from 'lucide-react';
 import { Button } from '../ui/button';
-import { navigateTo } from '../Router';
+import { navigateTo } from '@/lib/navigation';
 import {
   Accordion,
   AccordionContent,
@@ -9,7 +11,8 @@ import {
 } from '../ui/accordion';
 import { Header } from '../Header';
 import { Footer } from '../Footer';
-import coverImage from 'figma:asset/ac9e7f83ff72108ba815038c582eb800bc6ea521.png';
+
+const coverImage = '/assets/ac9e7f83ff72108ba815038c582eb800bc6ea521.png';
 
 export function AIStrategicGuidancePage() {
   const handleContactClick = () => {

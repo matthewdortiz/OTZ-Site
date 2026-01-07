@@ -1,6 +1,8 @@
+'use client';
+
 import { Briefcase, Mic, TrendingUp, GraduationCap } from 'lucide-react';
 import { Button } from './ui/button';
-import { navigateTo } from './Router';
+import { navigateTo } from '@/lib/navigation';
 
 const pillars = [
   {

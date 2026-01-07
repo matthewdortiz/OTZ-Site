@@ -1,8 +1,10 @@
+'use client';
+
 import { useEffect, useRef, useState } from 'react';
 import { motion, useInView, useScroll, useTransform } from 'motion/react';
 import { Search, Compass, Rocket, TrendingUp } from 'lucide-react';
 import { Button } from '../ui/button';
-import { navigateTo } from '../Router';
+import { navigateTo } from '@/lib/navigation';
 
 interface TimelineStage {
   id: number;

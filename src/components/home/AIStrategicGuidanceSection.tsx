@@ -1,7 +1,10 @@
+'use client';
+
 import { Button } from '../ui/button';
 import { ArrowRight } from 'lucide-react';
-import { navigateTo } from '../Router';
-import consultingBg from 'figma:asset/ac9e7f83ff72108ba815038c582eb800bc6ea521.png';
+import { navigateTo } from '@/lib/navigation';
+
+const consultingBg = '/assets/ac9e7f83ff72108ba815038c582eb800bc6ea521.png';
 
 export function AIStrategicGuidanceSection() {
   const handleLearnMore = () => {

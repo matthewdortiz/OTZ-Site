@@ -2,7 +2,8 @@ import { Header } from '../Header';
 import { Footer } from '../Footer';
 import { CheckCircle2, Lightbulb, PenTool, Users, Rocket } from 'lucide-react';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '../ui/accordion';
-import coverImage from 'figma:asset/ccba4d1a51711117e56b7497b7a612e8532e7921.png';
+
+const coverImage = '/assets/ccba4d1a51711117e56b7497b7a612e8532e7921.png';
 
 export function Teachings() {
   return (

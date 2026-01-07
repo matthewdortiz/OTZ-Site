@@ -3,6 +3,8 @@ node_modules/
 
 # Build output
 dist/
+.next/
+out/
 
 # Environment variables
 .env
@@ -25,3 +27,4 @@ npm-debug.log*
 
 # Cache
 .cache/
+*.tsbuildinfo

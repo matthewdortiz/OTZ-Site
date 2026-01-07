@@ -1,6 +1,9 @@
+'use client';
+
 import { HomeOfferingTemplate } from './HomeOfferingTemplate';
 import { Clock, TrendingDown, FileCheck } from 'lucide-react';
-import coverImage from 'figma:asset/38d56c8895b9949d72bfb36951bb909cc704e6ff.png';
+
+const coverImage = '/assets/38d56c8895b9949d72bfb36951bb909cc704e6ff.png';
 
 export function AIVoiceAgentsPage() {
   return (

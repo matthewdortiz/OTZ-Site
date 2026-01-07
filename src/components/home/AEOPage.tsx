@@ -1,6 +1,8 @@
+'use client';
+
 import { ChevronRight, CheckCircle2, TrendingUp, UserCheck, BarChart3 } from 'lucide-react';
 import { Button } from '../ui/button';
-import { navigateTo } from '../Router';
+import { navigateTo } from '@/lib/navigation';
 import {
   Accordion,
   AccordionContent,
@@ -9,7 +11,8 @@ import {
 } from '../ui/accordion';
 import { Header } from '../Header';
 import { Footer } from '../Footer';
-import backgroundImage from 'figma:asset/a902e3f0e8a16e199e12b5bf0b790194e662556a.png';
+
+const backgroundImage = '/assets/a902e3f0e8a16e199e12b5bf0b790194e662556a.png';
 
 export function AEOPage() {
   const handleContactClick = () => {

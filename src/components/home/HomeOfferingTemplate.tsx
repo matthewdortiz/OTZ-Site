@@ -1,6 +1,8 @@
+'use client';
+
 import { ChevronRight, CheckCircle2 } from 'lucide-react';
 import { Button } from '../ui/button';
-import { navigateTo } from '../Router';
+import { navigateTo } from '@/lib/navigation';
 import {
   Accordion,
   AccordionContent,

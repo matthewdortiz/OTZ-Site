@@ -1,8 +1,11 @@
+'use client';
+
 import { Header } from '../Header';
 import { Footer } from '../Footer';
 import { CheckCircle2, Lightbulb, PenTool, Users, Rocket } from 'lucide-react';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '../ui/accordion';
-import coverImage from 'figma:asset/def4bbfb80bca8539192afdf547ead8d51b5bba1.png';
+
+const coverImage = '/assets/def4bbfb80bca8539192afdf547ead8d51b5bba1.png';
 
 export function TeachingsPage() {
   return (

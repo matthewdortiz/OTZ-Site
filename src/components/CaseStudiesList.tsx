@@ -1,7 +1,9 @@
+'use client';
+
 import { Header } from './Header';
 import { Footer } from './Footer';
 import { ArrowRight } from 'lucide-react';
-import { navigateTo } from './Router';
+import { navigateTo } from '@/lib/navigation';
 
 export function CaseStudiesList() {
   const caseStudies = [
