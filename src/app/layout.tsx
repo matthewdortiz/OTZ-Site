@@ -81,15 +81,12 @@ export const metadata: Metadata = {
   manifest: '/manifest.json',
   icons: {
     icon: [
-      { url: '/assets/175ef9c37b5530325437f7966a6f530739cadb92.png', sizes: '32x32', type: 'image/png' },
-      { url: '/assets/175ef9c37b5530325437f7966a6f530739cadb92.png', sizes: '16x16', type: 'image/png' },
+      { url: '/favicon.svg', type: 'image/svg+xml' },
     ],
     apple: [
-      { url: '/assets/175ef9c37b5530325437f7966a6f530739cadb92.png', sizes: '180x180', type: 'image/png' },
+      { url: '/favicon.svg', type: 'image/svg+xml' },
     ],
-    other: [
-      { rel: 'mask-icon', url: '/assets/175ef9c37b5530325437f7966a6f530739cadb92.png' },
-    ],
+    shortcut: '/favicon.svg',
   },
   category: 'technology',
   classification: 'Business',
