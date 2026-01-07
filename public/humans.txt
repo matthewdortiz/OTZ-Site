@@ -1,0 +1,18 @@
+/* TEAM */
+Company: OTZ Group
+Contact: matthew@otz.group
+Location: Miami, Florida, USA
+
+/* SITE */
+Last update: 2025-01-07
+Standards: HTML5, CSS3, JavaScript ES6+
+Framework: Next.js 14
+Hosting: Vercel
+Components: React, Tailwind CSS, Radix UI
+Language: English
+
+/* THANKS */
+Next.js Team: https://nextjs.org
+Vercel: https://vercel.com
+Tailwind CSS: https://tailwindcss.com
+Radix UI: https://radix-ui.com
