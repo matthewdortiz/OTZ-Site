@@ -12,7 +12,7 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   metadataBase: new URL('https://otz.group'),
   title: {
-    default: 'OTZ Group | AI Consulting & Implementation for South Florida SMBs',
+    default: 'OTZ Group | AI Consulting & Implementation',
     template: '%s | OTZ Group',
   },
   description: 'Miami-based AI consulting firm specializing in practical AI implementation for healthcare, retail, and logistics SMBs. Voice agents, automation, and 21-day deployments with measurable ROI.',
@@ -56,20 +56,20 @@ export const metadata: Metadata = {
     locale: 'en_US',
     url: 'https://otz.group',
     siteName: 'OTZ Group',
-    title: 'OTZ Group | AI Consulting & Implementation for South Florida SMBs',
+    title: 'OTZ Group | AI Consulting & Implementation',
     description: 'Miami-based AI consulting firm specializing in practical AI implementation for healthcare, retail, and logistics SMBs. Voice agents, automation, and 21-day deployments.',
     images: [
       {
         url: '/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'OTZ Group - AI Transformation for South Florida Businesses',
+        alt: 'OTZ Group - AI Consulting & Implementation',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'OTZ Group | AI Consulting for South Florida SMBs',
+    title: 'OTZ Group | AI Consulting & Implementation',
     description: 'Miami-based AI consulting firm. Voice agents, automation, and 21-day deployments with measurable ROI.',
     images: ['/og-image.jpg'],
     creator: '@otzgroup',
