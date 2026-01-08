@@ -9,7 +9,11 @@
       "Bash(powershell:*)",
       "Bash(dir \"C:\\\\Users\\\\mycha\\\\OTZ-Site\")",
       "Bash(git add:*)",
-      "Bash(git commit:*)"
+      "Bash(git commit:*)",
+      "Bash(node:*)",
+      "Bash(npm install:*)",
+      "Bash(ls:*)",
+      "Bash(npm run build:*)"
     ]
   }
 }

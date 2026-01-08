@@ -4,8 +4,8 @@ import { Menu } from 'lucide-react';
 import { Button } from './ui/button';
 import { navigateTo } from '@/lib/navigation';
 
-const nucleusLogo = '/assets/4b687204aaec3298af0000550b663db441082924.png';
-const otzLogo = '/assets/a0a5640ba53bc00982c4d72a3acb171ad7d022d4.png';
+const nucleusLogo = '/assets/4b687204aaec3298af0000550b663db441082924.webp';
+const otzLogo = '/assets/otz-logo.webp';
 
 export function Header() {
   const scrollToTop = () => {
@@ -74,11 +74,10 @@ export function Header() {
               onClick={scrollToTop}
               className="hover:opacity-80 transition-opacity cursor-pointer flex items-center" 
             >
-              <img 
-                src={otzLogo} 
-                alt="OTZ" 
-                className="h-4 sm:h-5 w-auto"
-                style={{ filter: 'invert(1) brightness(1)' }}
+              <img
+                src={otzLogo}
+                alt="OTZ Group Consulting"
+                className="h-8 sm:h-10 w-auto"
               />
             </button>
             
