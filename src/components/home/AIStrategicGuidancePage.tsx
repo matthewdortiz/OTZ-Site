@@ -12,7 +12,7 @@ import {
 import { Header } from '../Header';
 import { Footer } from '../Footer';
 
-const coverImage = '/assets/ac9e7f83ff72108ba815038c582eb800bc6ea521.png';
+const coverImage = '/assets/ac9e7f83ff72108ba815038c582eb800bc6ea521.webp';
 
 export function AIStrategicGuidancePage() {
   const handleContactClick = () => {

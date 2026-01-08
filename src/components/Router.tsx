@@ -29,7 +29,7 @@ import { TeachingsSection } from './home/TeachingsSection';
 import { NucleusSection } from './home/NucleusSection';
 import { CalendlySection } from './CalendlySection';
 
-const heroBackground = '/assets/7b4c28ac23a4d16adf49ce5d461f26c788329d3c.png';
+const heroBackground = '/assets/7b4c28ac23a4d16adf49ce5d461f26c788329d3c.webp';
 
 // Custom navigation event for SPA routing
 export const navigateTo = (path: string) => {

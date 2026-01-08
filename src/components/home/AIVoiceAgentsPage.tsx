@@ -3,7 +3,7 @@
 import { HomeOfferingTemplate } from './HomeOfferingTemplate';
 import { Clock, TrendingDown, FileCheck } from 'lucide-react';
 
-const coverImage = '/assets/38d56c8895b9949d72bfb36951bb909cc704e6ff.png';
+const coverImage = '/assets/38d56c8895b9949d72bfb36951bb909cc704e6ff.webp';
 
 export function AIVoiceAgentsPage() {
   return (

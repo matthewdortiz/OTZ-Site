@@ -11,7 +11,7 @@ import { AEOSection } from '@/components/home/AEOSection';
 import { TeachingsSection } from '@/components/home/TeachingsSection';
 import { CalendlySection } from '@/components/CalendlySection';
 
-const heroBackground = '/assets/7b4c28ac23a4d16adf49ce5d461f26c788329d3c.png';
+const heroBackground = '/assets/7b4c28ac23a4d16adf49ce5d461f26c788329d3c.webp';
 
 export default function HomePage() {
   return (

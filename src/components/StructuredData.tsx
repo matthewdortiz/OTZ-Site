@@ -5,7 +5,7 @@ export function OrganizationSchema() {
     "name": "OTZ Group",
     "legalName": "OTZ Group LLC",
     "url": "https://otz.group",
-    "logo": "https://otz.group/logo.png",
+    "logo": "https://otz.group/logo.webp",
     "description": "Miami-based AI consulting firm specializing in practical AI implementation for healthcare, retail, and logistics SMBs. Voice agents, automation, and proprietary Nucleus platform with 21-day deployments.",
     "address": {
       "@type": "PostalAddress",
@@ -250,7 +250,7 @@ export function CaseStudySchema({ name, description, url, industry, datePublishe
       "name": "OTZ Group",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://otz.group/logo.png"
+        "url": "https://otz.group/logo.webp"
       }
     },
     "about": {
