@@ -81,12 +81,12 @@ export const metadata: Metadata = {
   manifest: '/manifest.json',
   icons: {
     icon: [
-      { url: '/favicon.svg', type: 'image/svg+xml' },
+      { url: '/favicon.png', type: 'image/png' },
     ],
     apple: [
-      { url: '/favicon.svg', type: 'image/svg+xml' },
+      { url: '/apple-touch-icon.png', type: 'image/png', sizes: '180x180' },
     ],
-    shortcut: '/favicon.svg',
+    shortcut: '/favicon.png',
   },
   category: 'technology',
   classification: 'Business',
