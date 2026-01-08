@@ -5,7 +5,7 @@ import { Button } from './ui/button';
 import { navigateTo } from '@/lib/navigation';
 
 const nucleusLogo = '/assets/4b687204aaec3298af0000550b663db441082924.webp';
-const otzLogo = '/assets/otz-logo.webp';
+const otzLogo = '/assets/otz-logo.svg';
 
 export function Header() {
   const scrollToTop = () => {
