@@ -57,7 +57,7 @@ export function NucleusSection() {
                   fontWeight: 400,
                 }}
               >
-                Unify all of your business data into a secure AI core so your team can ask questions, pull insights, and trigger AI workflows, all through natural conversation. Act quicker. Smarter.
+                Unify your business data into a secure AI core so your team can ask questions, pull insights, and trigger AI workflows, all through natural conversation. Act quicker. Smarter.
               </p>
 
               {/* CTAs */}
