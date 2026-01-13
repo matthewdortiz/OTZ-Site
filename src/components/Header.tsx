@@ -83,7 +83,7 @@ export function Header() {
             
             <nav className="flex items-center justify-around flex-1 px-4 sm:justify-start sm:px-0 sm:flex-initial sm:gap-4 lg:gap-8">
               <a 
-                href="https://nucleus.run" 
+                href="https://robin-dried-33282198.figma.site/" 
                 target="_blank" 
                 rel="noopener noreferrer"
               >
