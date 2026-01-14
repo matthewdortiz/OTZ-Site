@@ -7,7 +7,7 @@ const nucleusImage = '/assets/db9edf86cd0a365118b0849fed74a23bf31b3a45.webp';
 
 export function NucleusSection() {
   const handleLearnMore = () => {
-    window.open('https://nucleus.run', '_blank', 'noopener,noreferrer');
+    window.open('https://robin-dried-33282198.figma.site/', '_blank', 'noopener,noreferrer');
   };
 
   return (
